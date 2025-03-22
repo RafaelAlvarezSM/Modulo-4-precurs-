@@ -1,22 +1,33 @@
 body{
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(255, 238, 0);
 }
 
 .title{
-   font-size: 2em;
-   color: blue; 
+   font-size: 2.3em;
+   color: rgb(247, 73, 38); 
+}
+
+#titulos:hover{
+    background-color: rgb(84, 84, 204);
 }
 
 .logo{
     width: 400px;
+    height: 600px;
 }
 
 .cards{
-    border: 2.5px solid black;
+    border: 2.5px solid rgb(41, 212, 235);
     width: fit-content;
-    padding: 0px 1em 1em 1em ;
-    border-radius: 10%;
+    padding: 1em 1em 2em 1em;
+    border-radius: 9%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+    
 }
 
 .cards:hover{
@@ -25,18 +36,39 @@ body{
 
 
 #principal{
-    font-size: 4.5em;
+    font-size: 4em;
     color: aqua;
+
 }
 
 .texto{
-    font-size: 2em;s
+    font-size: 2em;
     color: rgb(39, 3, 37);
 }
 
 #titulos{
-    border: 2px solid black;
-    width: 60vw;
+    width: 85vw;
     margin: auto;
     padding: 3em;
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    transition: 3s;
+}
+
+#cards-containers{
+    
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    border: 2px solid rgb(92, 80, 59);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
 }
